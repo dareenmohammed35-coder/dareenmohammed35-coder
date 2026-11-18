@@ -7,7 +7,7 @@
 
 <br/>
 
-<img src="./robot.svg" width="270" align="right" alt="Dareen AI Robot"/>
+<img src="./robot.svg" width="300" align="right" alt="Dareen AI Robot"/>
 
 <table width="72%" border="2" bordercolor="#FF4545" bgcolor="#171B27">
 <tr>
