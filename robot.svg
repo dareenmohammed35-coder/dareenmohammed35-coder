@@ -1,0 +1,53 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 320">
+<defs>
+<linearGradient id="silver" x2="1" y2="1">
+<stop stop-color="#fff"/>
+<stop offset="1" stop-color="#778899"/>
+</linearGradient>
+<linearGradient id="red" x2="1" y2="1">
+<stop stop-color="#ff5555"/>
+<stop offset="1" stop-color="#a50020"/>
+</linearGradient>
+</defs>
+
+<ellipse cx="145" cy="300" rx="85" ry="9" fill="#168bff" opacity=".3"/>
+
+<path d="M145 48V25" stroke="#aaa" stroke-width="6"/>
+<circle cx="145" cy="18" r="9" fill="#00cfff"/>
+
+<!-- Robot Head -->
+<rect x="75" y="45" width="140" height="112" rx="32" fill="url(#silver)" stroke="#566477" stroke-width="4"/>
+<rect x="90" y="63" width="110" height="73" rx="20" fill="#152638"/>
+
+<ellipse cx="120" cy="96" rx="10" ry="13" fill="#00d9ff"/>
+<ellipse cx="170" cy="96" rx="10" ry="13" fill="#00d9ff"/>
+<path d="M125 119Q145 133 165 119" stroke="#ff5555" stroke-width="4" fill="none"/>
+
+<!-- Body -->
+<rect x="88" y="165" width="115" height="112" rx="25" fill="url(#silver)" stroke="#566477" stroke-width="4"/>
+<rect x="110" y="181" width="72" height="53" rx="12" fill="#172536"/>
+<circle cx="146" cy="207" r="14" fill="url(#red)"/>
+<circle cx="146" cy="207" r="6" fill="#fff"/>
+<path d="M119 250H174" stroke="#00cfff" stroke-width="5" stroke-linecap="round"/>
+
+<!-- Left Arm -->
+<path d="M94 188L62 220" stroke="url(#silver)" stroke-width="19" stroke-linecap="round"/>
+<circle cx="58" cy="223" r="12" fill="url(#red)"/>
+
+<!-- Waving Right Arm -->
+<g>
+<path d="M198 185L232 143" stroke="url(#silver)" stroke-width="19" stroke-linecap="round"/>
+<circle cx="232" cy="140" r="13" fill="url(#red)"/>
+<path d="M232 140L238 102" stroke="url(#silver)" stroke-width="12" stroke-linecap="round"/>
+<path d="M235 117L215 96" stroke="url(#silver)" stroke-width="10" stroke-linecap="round"/>
+<path d="M240 112L240 86" stroke="url(#silver)" stroke-width="10" stroke-linecap="round"/>
+<path d="M246 116L260 96" stroke="url(#silver)" stroke-width="10" stroke-linecap="round"/>
+<animateTransform attributeName="transform" type="rotate" values="-10 198 185;10 198 185;-10 198 185" dur="1s" repeatCount="indefinite"/>
+</g>
+
+<!-- Legs -->
+<path d="M120 273V291M170 273V291" stroke="#778899" stroke-width="16" stroke-linecap="round"/>
+<path d="M106 293H132M157 293H183" stroke="#c51d37" stroke-width="15" stroke-linecap="round"/>
+
+</svg>
