@@ -3,34 +3,56 @@
 
 <h1>👋 WELCOME TO MY WORLD</h1>
 
-<br/>
-
 </div>
 
-<table>
+<br/>
+
+<img src="./robot.svg" width="270" align="right" alt="Dareen AI Robot"/>
+
+<table width="72%" border="2" bordercolor="#FF4545" bgcolor="#171B27">
 <tr>
-<td width="75%" align="center" valign="middle">
+<td align="center">
 
-<h1><i>DAREEN MOHAMMED</i></h1>
+<br/>
 
-<h3>Computer Science Student | AI Enthusiast | Developer</h3>
+<h1>
+<i>
+<font color="#FF4545">DAREEN</font>
+<font color="#FFFFFF"> MOHAMMED</font>
+</i>
+</h1>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2500&pause=800&color=FF4545&center=true&vCenter=true&width=550&lines=Learning+%7C+Coding+%7C+Innovating;Building+Creative+Projects;Exploring+Artificial+Intelligence" />
+<h3>
+Computer Science Student
+</h3>
+
+<h3>
+<font color="#00CFFF">AI Enthusiast</font>
+|
+<font color="#FF5555">Developer</font>
+</h3>
+
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=19&duration=2200&pause=700&color=FF4545&center=true&vCenter=true&width=500&lines=Learning+%7C+Coding+%7C+Innovating;Building+Creative+Projects;Exploring+Artificial+Intelligence;Turning+Ideas+Into+Reality" />
+
+<br/><br/>
+
+<font color="#00CFFF">
+<b>THINK • CODE • CREATE • INNOVATE</b>
+</font>
+
+<br/><br/>
 
 </td>
-
-<td width="25%" align="center" valign="middle">
-
-
-
-</td>
-<img src="./robot.svg" width="300" alt="Dareen AI Robot"/>
 </tr>
 </table>
 
+<br clear="all"/>
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,20,24&height=3" width="90%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,20,24&height=4&section=header" width="90%"/>
 
 </div>
 
