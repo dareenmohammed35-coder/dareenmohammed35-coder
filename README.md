@@ -21,9 +21,10 @@
 
 <td width="25%" align="center" valign="middle">
 
-<img src="./robot.svg" width="230" alt="Dareen AI Robot"/>
+
 
 </td>
+<img src="./robot.svg" width="500" alt="Dareen AI Robot"/>
 </tr>
 </table>
 
