@@ -1,53 +1,121 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 320">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 340">
 <defs>
-<linearGradient id="silver" x2="1" y2="1">
-<stop stop-color="#fff"/>
-<stop offset="1" stop-color="#778899"/>
-</linearGradient>
-<linearGradient id="red" x2="1" y2="1">
-<stop stop-color="#ff5555"/>
-<stop offset="1" stop-color="#a50020"/>
-</linearGradient>
+  <linearGradient id="helmet" x1="0" y1="0" x2="0.8" y2="1">
+    <stop stop-color="#fff5ee"/>
+    <stop offset=".45" stop-color="#ffb6a5"/>
+    <stop offset="1" stop-color="#d87569"/>
+  </linearGradient>
+  <linearGradient id="suit" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#fff0e8"/>
+    <stop offset=".55" stop-color="#f6b6a5"/>
+    <stop offset="1" stop-color="#d87d76"/>
+  </linearGradient>
+  <linearGradient id="red" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#ff777c"/>
+    <stop offset="1" stop-color="#bd263f"/>
+  </linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#b8faff"/>
+    <stop offset="1" stop-color="#48b9d0"/>
+  </linearGradient>
+  <linearGradient id="lens" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#fff"/>
+    <stop offset="1" stop-color="#b9cbd3"/>
+  </linearGradient>
+  <filter id="shadow">
+    <feGaussianBlur stdDeviation="4"/>
+  </filter>
 </defs>
 
-<ellipse cx="145" cy="300" rx="85" ry="9" fill="#168bff" opacity=".3"/>
+<!-- Shadow -->
+<ellipse cx="150" cy="327" rx="82" ry="8" fill="#182536" opacity=".2" filter="url(#shadow)"/>
 
-<path d="M145 48V25" stroke="#aaa" stroke-width="6"/>
-<circle cx="145" cy="18" r="9" fill="#00cfff"/>
-
-<!-- Robot Head -->
-<rect x="75" y="45" width="140" height="112" rx="32" fill="url(#silver)" stroke="#566477" stroke-width="4"/>
-<rect x="90" y="63" width="110" height="73" rx="20" fill="#152638"/>
-
-<ellipse cx="120" cy="96" rx="10" ry="13" fill="#00d9ff"/>
-<ellipse cx="170" cy="96" rx="10" ry="13" fill="#00d9ff"/>
-<path d="M125 119Q145 133 165 119" stroke="#ff5555" stroke-width="4" fill="none"/>
-
-<!-- Body -->
-<rect x="88" y="165" width="115" height="112" rx="25" fill="url(#silver)" stroke="#566477" stroke-width="4"/>
-<rect x="110" y="181" width="72" height="53" rx="12" fill="#172536"/>
-<circle cx="146" cy="207" r="14" fill="url(#red)"/>
-<circle cx="146" cy="207" r="6" fill="#fff"/>
-<path d="M119 250H174" stroke="#00cfff" stroke-width="5" stroke-linecap="round"/>
-
-<!-- Left Arm -->
-<path d="M94 188L62 220" stroke="url(#silver)" stroke-width="19" stroke-linecap="round"/>
-<circle cx="58" cy="223" r="12" fill="url(#red)"/>
-
-<!-- Waving Right Arm -->
-<g>
-<path d="M198 185L232 143" stroke="url(#silver)" stroke-width="19" stroke-linecap="round"/>
-<circle cx="232" cy="140" r="13" fill="url(#red)"/>
-<path d="M232 140L238 102" stroke="url(#silver)" stroke-width="12" stroke-linecap="round"/>
-<path d="M235 117L215 96" stroke="url(#silver)" stroke-width="10" stroke-linecap="round"/>
-<path d="M240 112L240 86" stroke="url(#silver)" stroke-width="10" stroke-linecap="round"/>
-<path d="M246 116L260 96" stroke="url(#silver)" stroke-width="10" stroke-linecap="round"/>
-<animateTransform attributeName="transform" type="rotate" values="-10 198 185;10 198 185;-10 198 185" dur="1s" repeatCount="indefinite"/>
-</g>
+<!-- Backpack -->
+<path d="M213 193 Q252 185 260 220 L272 275 Q258 292 235 278 L218 246Z"
+      fill="url(#suit)" stroke="#d98b83" stroke-width="4"/>
+<path d="M234 215 Q257 230 255 263" fill="none" stroke="#fff0e8" stroke-width="7"/>
 
 <!-- Legs -->
-<path d="M120 273V291M170 273V291" stroke="#778899" stroke-width="16" stroke-linecap="round"/>
-<path d="M106 293H132M157 293H183" stroke="#c51d37" stroke-width="15" stroke-linecap="round"/>
+<path d="M105 272 L102 305 Q98 323 120 326 L142 326 L146 289Z"
+      fill="url(#suit)" stroke="#d68b80" stroke-width="4"/>
+<path d="M161 285 L168 310 Q170 325 192 326 L213 322 Q224 314 209 302 L195 272Z"
+      fill="url(#suit)" stroke="#d68b80" stroke-width="4"/>
+<path d="M99 313 Q120 304 141 319 L143 329 L106 333 Q89 329 99 313Z" fill="url(#red)"/>
+<path d="M166 314 Q188 303 210 314 Q224 328 205 332 L174 332Z" fill="url(#red)"/>
+
+<!-- Body -->
+<path d="M78 181 Q83 157 113 154 L187 154 Q218 161 224 193 L222 272 Q218 294 190 298 L111 298 Q78 292 75 266Z"
+      fill="url(#suit)" stroke="#d8897d" stroke-width="4"/>
+
+<!-- Shoulder armor -->
+<path d="M79 187 Q55 184 49 207 L65 239 Q78 245 88 229Z" fill="url(#helmet)"/>
+<path d="M218 187 Q242 187 251 207 L238 238 Q225 244 215 227Z" fill="url(#helmet)"/>
+
+<!-- Chest AI panel -->
+<rect x="112" y="207" width="78" height="67" rx="15" fill="#d98d80" stroke="#fff1e9" stroke-width="5"/>
+<rect x="121" y="215" width="60" height="51" rx="10" fill="url(#red)" stroke="#a94b4d" stroke-width="2"/>
+<text x="151" y="250" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="bold" fill="#fff5ee">AI</text>
+
+<!-- Circuit details -->
+<g stroke="#b5c6ce" stroke-width="4" stroke-linecap="round">
+  <path d="M110 216 H101 M110 230 H101 M110 244 H101 M110 258 H101"/>
+  <path d="M190 216 H199 M190 230 H199 M190 244 H199 M190 258 H199"/>
+</g>
+<g fill="#fff">
+  <circle cx="101" cy="216" r="3"/><circle cx="199" cy="230" r="3"/>
+  <circle cx="101" cy="244" r="3"/><circle cx="199" cy="258" r="3"/>
+</g>
+
+<!-- Helmet ears -->
+<ellipse cx="37" cy="111" rx="29" ry="34" fill="url(#helmet)" stroke="#d98d80" stroke-width="4"/>
+<ellipse cx="263" cy="111" rx="29" ry="34" fill="url(#helmet)" stroke="#d98d80" stroke-width="4"/>
+
+<!-- Helmet -->
+<rect x="25" y="24" width="250" height="191" rx="91" fill="url(#helmet)" stroke="#d98d80" stroke-width="5"/>
+<path d="M53 72 Q64 35 150 31 Q230 31 247 74" fill="none" stroke="#fff3e9" stroke-width="11" stroke-linecap="round"/>
+<path d="M36 111 Q32 47 103 34" fill="none" stroke="#fff" stroke-width="5" opacity=".65"/>
+
+<!-- Face screen -->
+<rect x="51" y="64" width="198" height="130" rx="54" fill="#17242c" stroke="#d78b7e" stroke-width="7"/>
+
+<!-- Face eyes -->
+<ellipse cx="115" cy="112" rx="23" ry="26" fill="url(#glass)"/>
+<path d="M179 105 Q196 92 210 103" fill="none" stroke="#55e5e9" stroke-width="9" stroke-linecap="round"/>
+<path d="M179 105 L204 117" fill="none" stroke="#55e5e9" stroke-width="8" stroke-linecap="round"/>
+
+<!-- Smile -->
+<path d="M116 145 Q149 174 183 145" fill="none" stroke="#43d8d9" stroke-width="9" stroke-linecap="round"/>
+
+<!-- Helmet lower padding -->
+<path d="M64 180 Q148 209 237 180" fill="none" stroke="#fff0e8" stroke-width="13" stroke-linecap="round"/>
+
+<!-- Magnifying glass handle -->
+<path d="M85 174 L68 223 Q65 236 78 240 L89 236 L105 188Z"
+      fill="url(#red)" stroke="#bd7770" stroke-width="4"/>
+<path d="M76 221 L89 226" stroke="#fff1e9" stroke-width="4"/>
+
+<!-- Magnifying glass rim -->
+<circle cx="76" cy="139" r="47" fill="url(#red)" stroke="#fff0e9" stroke-width="5"/>
+<circle cx="76" cy="139" r="36" fill="url(#lens)" stroke="#f9e2dc" stroke-width="5"/>
+<path d="M54 116 Q70 101 89 111" fill="none" stroke="#fff" stroke-width="5" opacity=".8"/>
+
+<!-- Hand holding magnifier -->
+<g fill="url(#suit)" stroke="#d88b7e" stroke-width="3">
+  <ellipse cx="80" cy="224" rx="13" ry="10"/>
+  <ellipse cx="81" cy="241" rx="13" ry="9"/>
+  <ellipse cx="82" cy="257" rx="13" ry="9"/>
+</g>
+
+<!-- Floating sparkles -->
+<g fill="#4edcf5">
+  <path d="M260 35 L265 48 L278 53 L265 58 L260 71 L255 58 L242 53 L255 48Z"/>
+  <circle cx="23" cy="44" r="5"/>
+  <circle cx="280" cy="173" r="4"/>
+</g>
+<g fill="#ff777c">
+  <path d="M20 183 L24 195 L36 199 L24 203 L20 215 L16 203 L4 199 L16 195Z"/>
+</g>
 
 </svg>
+
