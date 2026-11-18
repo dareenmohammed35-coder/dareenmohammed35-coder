@@ -1,18 +1,38 @@
 
 <div align="center">
 
-# 👋 WELCOME TO MY WORLD
+<h1>👋 WELCOME TO MY WORLD</h1>
 
-# <i>DAREEN_M_AI</i>
-<img src="./robot.svg" width="220" align="right" alt="Dareen Robot"/>
-
-### Computer Science Student | AI Enthusiast | Developer
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2500&pause=800&color=FF3333&center=true&vCenter=true&width=600&lines=Hello%2C+I'm+Dareen!;I+Love+Building+Creative+Projects;Learning+%7C+Coding+%7C+Innovating;Future+AI+Engineer+%F0%9F%A4%96" />
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,20,24&height=3"/>
+<br/>
 
 </div>
+
+<table>
+<tr>
+<td width="75%" align="center" valign="middle">
+
+<h1><i>DAREEN MOHAMMED</i></h1>
+
+<h3>Computer Science Student | AI Enthusiast | Developer</h3>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2500&pause=800&color=FF4545&center=true&vCenter=true&width=550&lines=Learning+%7C+Coding+%7C+Innovating;Building+Creative+Projects;Exploring+Artificial+Intelligence" />
+
+</td>
+
+<td width="25%" align="center" valign="middle">
+
+<img src="./robot.svg" width="230" alt="Dareen AI Robot"/>
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,20,24&height=3" width="90%"/>
+
+</div>
+
 
 ## 🚀 ABOUT ME
 
