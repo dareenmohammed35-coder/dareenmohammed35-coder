@@ -99,7 +99,7 @@ I'm continuously working on new projects to turn my knowledge into practical exp
 
 <div align="center">
 
-<a href="YOUR_LINKEDIN_URL">
+<a href="linkedin.com/in/dareen-mohammed-aa15b03a2">
 <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin"/>
 </a>
 
