@@ -4,6 +4,7 @@
 # 👋 WELCOME TO MY WORLD
 
 # <i>DAREEN_M_AI</i>
+<img src="./robot.svg" width="220" align="right" alt="Dareen Robot"/>
 
 ### Computer Science Student | AI Enthusiast | Developer
 
