@@ -24,7 +24,7 @@
 
 
 </td>
-<img src="./robot.svg" width="500" alt="Dareen AI Robot"/>
+<img src="./robot.svg" width="300" alt="Dareen AI Robot"/>
 </tr>
 </table>
 
